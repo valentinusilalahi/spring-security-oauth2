@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = SpringSecurityOauth2ApplicationTests.class)
 public class SpringSecurityOauth2ApplicationTests {
 
 	@Test

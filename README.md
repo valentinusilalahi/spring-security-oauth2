@@ -8,3 +8,10 @@ Endpoints :
 * Menukar access code dengan access token : http://localhost:10000/oauth/token
 * Mengecek validitas dan informasi token : http://localhost:10000/oauth/check_token
 
+
+### Implementasi Jwt untuk Spring boot ###
+
+memerlukan keypair (pasangan public key dan private key)
+
+generate token : keytool -genkey -alias simulator -keyalg RSA -keystore doku-simulator-jenius.jks
+
